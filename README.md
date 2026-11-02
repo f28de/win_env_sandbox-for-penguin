@@ -1,5 +1,8 @@
 # @penguinharness/sandbox-win
 
+完全由两个独立的deepseek v4.1 flash 1017会话分别负责开发和审查。
+
+
 A Windows sandbox backend for PenguinHarness. Each agent command runs under a **write-restricted
 token**: the command is still you — your reads, your environment, your installed toolchain — and
 every write it attempts is checked a second time against a capability SID that grants nothing
